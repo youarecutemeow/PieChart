@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wangxin.example.com.piechart.MainActivity">
+
+    <wangxin.example.com.piechartlib.PieChart
+        android:layout_gravity="center"
+        android:id="@+id/piechart"
+        android:layout_width="match_parent"
+        android:layout_height="1000px"/>
+    <Button
+
+        android:onClick="click"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="showText"
+        android:text="ShowText"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
